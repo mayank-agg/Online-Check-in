@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Admin Page </title>
+<link rel="stylesheet" href= "./asn3style.css">
+<script src= "./adminScript.js"> </script>
+</head>
+
+<body>
+<section style="width: 30%; left: 30%">
+<p id='noCheckIn'></p>
+<p id='sameCheckIn'></p>
+<form action= "/adminLanding.html" method= "POST">
+<label> Admin Landing </label><br><hr><br>
+<label for="checkId"> Check in ID </label><br>
+<input type= "text" id="adminCheckID" name= "checkinID" oninput= "copyData(this.value)"><br><br>
+<input id= "submit" type="submit" onclick="location.href= './stopCheckIn.html'" value= "Start Check in"><br>
+</form>
+<form action= "/attendees" method= "POST">
+<input id="fake2" name="adminCheck">
+<input id="button" type="submit" value= "View History">
+</section>
+
+<script src= "./jquery.min.js"> </script>
+</body>
+</html>

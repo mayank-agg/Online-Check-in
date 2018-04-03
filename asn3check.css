@@ -1,0 +1,13 @@
+@import url("./asn3style.css");
+
+section {
+  margin-top: -6%;
+  font-size: 24px;
+}
+input {
+  border: 1px solid black;
+}
+#check:hover {
+  background-color: black;
+  color: white;
+}

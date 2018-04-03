@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Welcome to Check-in! </title>
+<link rel= "stylesheet" href= "./asn3style.css">
+<script src= "http://code.jquery.com/jquery-1.4.2.min.js"> </script>
+<script src="./asn3script.js"> </script>
+</head>
+
+<body>
+<header> Welcome to Check-in! </header>
+<section>
+<form action= "/" method="POST">
+<p id='errorLine'></p>
+<label> Admin Login </label><br><hr><br>
+<label for="username"><b> Username: </b></label>
+<input type="text" name= "username" id= "username"><br><br>
+<label for="password"><b> Password: </b></label>
+<input type= "password" name= "password" id= "password">
+<br><br>
+<input type="submit" value="Login" id= "submit">
+</form>
+</section>
+<button type="button" id="button" onclick="location.href= '/checkin.html'"> Check-in now! </button>
+<!--<a href= "/checkin.html"> Check-in now!</a> -->
+<button type="button" id="features" onclick="features()"> Features </button>
+</form>
+</section>
+</body>
+</html>

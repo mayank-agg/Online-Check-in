@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Check-in Page </title>
+<link rel="stylesheet" href="./asn3check.css">
+</head>
+<body>
+<section style="width: 40%; left: 30%">
+<form method= "POST" action="/checkin.html">    <!--Same page processing -->
+<p id='notActive'></p>
+<label> Check-in </label><br><hr><br>
+<label for="check-in-string"> Check-in string </label><br>
+<input type="text" name="checkInString" id= "check-in-string"><br><br>
+<label for= "fname"> Name </label><br>
+<input type= "text" name= "fname" id= "fname"><br><br>
+<label for= "userid"> User ID </label><br>
+<input type= "number" id="userid" name= "userid"><br><br>
+<input type="submit" value="Check in" id="check">
+</form>
+</section>
+</body>
+
+<script src= "http://code.jquery.com/jquery-1.4.2.min.js"> </script>
+</html>

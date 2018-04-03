@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: #f2f2f3;
+  margin: 0px;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+header {
+  text-align: center;
+  border: 1px solid black;
+  width: 100%;
+  padding-top: 4px;
+  font-size: 40px;
+  height: 60px;
+  margin-bottom: 2%;
+  background-color: white;
+}
+input {
+  border: 1px solid black;
+}
+section {
+  font-size: 25px;
+  padding: 25px 35px 20px 25px;
+  border: 1px solid black;
+  width: auto%;
+  height: auto;
+  background-color: white;
+  position: fixed;
+  left: 40%;
+  top: 20%;
+}
+#checkinID, #checkInBut {
+  margin: 4px;
+  padding: 5px 7px 5px 7px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+#checkinID:hover {
+  background-color: black;
+  color: white;
+}
+#fake
+{
+  display:none;
+}
+#head
+{
+  background-color: white;
+  margin:0;
+  border: 1px solid black;
+  padding: 7px;
+}
